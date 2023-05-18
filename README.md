@@ -1,1 +1,6 @@
-"# brixbank" 
+# brixbank
+
+
+## Notes
+
+-Text Project
