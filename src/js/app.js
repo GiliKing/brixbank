@@ -32,11 +32,37 @@ function scrollFunction() {
 
 // download button
 
-document.querySelector('button').addEventListener('click', () => {
+document.querySelector('.download').addEventListener('click', () => {
 
   window.location.href = "brix.apk";
 
 })
+
+
+const modalBg = document.getElementsByTagName("div")[0];
+const modalBox = document.getElementsByTagName("div")[1];
+let box_btn = document.querySelector('.js-open');
+// loop through all the boxes and select the learn more button for modal
+
+box_btn.addEventListener('click', function(event) {
+
+  event.preventDefault()
+  modalBg.classList.add("active")
+  modalBox.classList.add("active")
+
+
+})
+
+const closeBtns = document.querySelectorAll(".js-close");
+// close the modal
+closeBtns.forEach(node => {
+    node.addEventListener('click', function(e) {
+        e.preventDefault()
+        modalBg.classList.remove("active")
+        modalBox.classList.remove("active")
+    })
+})
+
 
 
 
