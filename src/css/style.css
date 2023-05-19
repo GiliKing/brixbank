@@ -543,7 +543,8 @@ body {
 
   .first-part .p-two {
     z-index: 1;
-    padding-left: 80px;
+    /* padding-left: 80px; */
+    align-self: center;
   }
 
   .first-part button {
