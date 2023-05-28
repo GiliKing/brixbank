@@ -56,9 +56,9 @@ $(document).ready(function() {
   // download button
   document.querySelector('.download').addEventListener('click', () => {
 
-    // window.location.href = "brix.apk";
+    window.location.href = "brix.apk";
 
-    alert("Comming Soon...")
+    // alert("Comming Soon...")
 
   })
 
