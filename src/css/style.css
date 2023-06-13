@@ -53,8 +53,8 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  /* background-color: #ddd; */
+  color: #ffffff;
 }
 
 #navbar-right {
@@ -590,7 +590,7 @@ body {
   }
 
   .fouth-section .first_part  {
-    background-image: url('../assets/tail2.jpg');
+    background-image: url('../assets/ok-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
